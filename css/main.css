@@ -1,9 +1,15 @@
+@font-face {
+    font-family: '3270';
+    src: url('./font/3270-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: '3270', monospace;
     background-color: #052500;
     color: #f0f0f0;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
 }
 
