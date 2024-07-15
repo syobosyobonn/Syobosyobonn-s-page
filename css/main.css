@@ -74,6 +74,7 @@ header a{
     position: relative;
     padding-left: 20px;
     font-size: 18px;
+    line-height: 10px;
 }
 
 .siteMap::before {
