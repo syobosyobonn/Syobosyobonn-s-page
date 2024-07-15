@@ -45,7 +45,7 @@ header{
 }
 
 .content::before {
-    margin-left: 60px;
+    margin-left: 10px;
     content: "";
     position: absolute;
     /* 擬似要素の絶対位置を指定 */
