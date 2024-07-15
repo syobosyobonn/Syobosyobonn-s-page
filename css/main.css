@@ -14,7 +14,7 @@ body{
 }
 
 p{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 a{
@@ -37,5 +37,23 @@ header{
     display: flex; 
     justify-content:space-between;
     z-index: 1;
+}
 
+.content {
+    position: relative;
+    padding-left: 20px;
+}
+
+.content::before {
+    margin-left: 60px;
+    content: "";
+    position: absolute;
+    /* 擬似要素の絶対位置を指定 */
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    /* 線の太さ */
+    background-color: #ffffff;
+    /* 線の色 */
 }
