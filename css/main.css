@@ -7,7 +7,7 @@
 
 body{
     font-family: '3270', monospace;
-    background-color: #052500;
+    background-color: #031700;
     color: #f0f0f0;
     font-optical-sizing: auto;
     font-style: normal;
@@ -16,10 +16,12 @@ body{
 p{
     font-size: 15px;
 }
+
 a{
     text-decoration: none;
     color: #ffffff;
 }
+
 header{
     position: fixed;
     width: 100%; 
