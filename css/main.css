@@ -23,6 +23,10 @@ h1{
     font-size: 20px;
 }
 
+h2{
+    font-size: 18px;
+}
+
 a{
     text-decoration: none;
     color: #ffffff;
@@ -94,4 +98,9 @@ header a{
 
 .fa-house-chimney{
     size: 20px;
+}
+
+.seacret a{
+    color: #00000000;
+    font-size: 1px;
 }
