@@ -1,6 +1,12 @@
 /*border-radius: 50px 3px;*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@400;500;900&display=swap');
 
+.blog-back-conts{
+    display: flex;
+    flex-direction: row; /* 横方向に並べる */
+    gap: 20px; /* 各コンテンツの間隔を指定 */
+}
+
 .blog-cont-title{
     background-color: rgba(250, 250, 250, 0.1);
     border-radius: 10px 1px;
@@ -8,8 +14,9 @@
     margin-bottom: 1%;
     margin-right: 80%;
     padding-top: 0.25%;
-    padding-left: 2%;
+    padding-left: 10px;
     padding-bottom: 0.5%;
+    width: 140px;
 }
 
 .blog-cont{
