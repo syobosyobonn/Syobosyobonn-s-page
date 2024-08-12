@@ -5,25 +5,25 @@
     font-style: normal;
 }
 
-body{
+body {
     font-family: '3270', monospace;
     background-color: #000000;
     color: #00b100;
     font-optical-sizing: auto;
     font-style: normal;
-    text-shadow:  0px 0px 3px #ffffff;
+    text-shadow: 0px 0px 3px #ffffff;
 }
 
-p{
+p {
     font-size: 20px;
     line-height: 0px;
 }
 
-h1{
+h1 {
     font-size: 20px;
 }
 
-a{
+a {
     color: #00b100;
     text-decoration: none;
 }
