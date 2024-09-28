@@ -6,13 +6,7 @@ body {
     font-style: normal;
     background-color: #031700;
     font-optical-sizing: auto;
-}
-
-p,
-h1,
-h2,
-a {
-    font-family: "Zilla Slab", system-ui;
+    overflow-x: hidden;
 }
 
 .back-cont {
@@ -77,14 +71,11 @@ header a {
     margin-left: 10px;
     content: "";
     position: absolute;
-    /* 擬似要素の絶対位置を指定 */
     left: 0;
     top: 0;
     bottom: 0;
     width: 2px;
-    /* 線の太さ */
     background-color: #017c1f;
-    /* 線の色 */
 }
 
 .content a {
@@ -102,14 +93,11 @@ header a {
     margin-left: 10px;
     content: "";
     position: absolute;
-    /* 擬似要素の絶対位置を指定 */
     left: 0;
     top: 0;
     bottom: 0;
     width: 3px;
-    /* 線の太さ */
     background-color: #017c1f;
-    /* 線の色 */
 }
 
 .fa-house-chimney {

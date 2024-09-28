@@ -1,0 +1,53 @@
+/* フェードインしながら下からスライド */
+@keyframes slideInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+        /* 下から */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /* 元の位置 */
+    }
+}
+
+/* フェードインしながら右からスライド */
+@keyframes slideInFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+        /* 右から */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        /* 元の位置 */
+    }
+}
+
+/* 背景やコンテンツが右からスライドしてくる */
+.back-cont {
+    animation: slideInFromRight 0.5s ease-out forwards;
+}
+
+/* タイトル文字が背景アニメーション終了後に下からスライドしてくる */
+h1,
+h2,
+p {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: slideInFromBottom 0.7s ease-out forwards;
+    animation-delay: 0.5s;
+    /* 背景アニメーション終了後0.5秒の遅延で開始 */
+}
+
+
+.siteMap {
+    opacity: 0;
+    animation: slideInFromBottom 0.7s ease-out forwards;
+    animation-delay: 0.5s;
+    /* 背景アニメーション終了後0.5秒の遅延で開始 */
+}
