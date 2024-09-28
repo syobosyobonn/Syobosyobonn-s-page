@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;700&display=swap');
 
 body {
-    font-family: "Zilla Slab", system-ui;
-    font-weight: 300;
+    font-family: "Zilla Slab", system-ui !important;
+    font-weight: 400;
     font-style: normal;
     background-color: #031700;
     font-optical-sizing: auto;
+}
+
+p,
+h1,
+h2,
+a {
+    font-family: "Zilla Slab", system-ui;
 }
 
 .back-cont {
@@ -22,7 +29,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2px;
 }
 
@@ -62,7 +69,6 @@ header a {
 }
 
 .content {
-    font-family: '3270', monospace;
     position: relative;
     padding-left: 20px;
 }
