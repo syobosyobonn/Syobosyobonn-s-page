@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;700&display=swap');
 
 body {
-    font-family: "Zilla Slab", serif;
+    font-family: "Zilla Slab", system-ui;
     font-weight: 300;
+    font-style: normal;
     background-color: #000000;
     color: #00b100;
     font-optical-sizing: auto;
-    font-style: normal;
     text-shadow: 0px 0px 3px #ffffff;
 }
 
